@@ -1,0 +1,12 @@
+include LICENSE
+include README.ipynb
+include README.md
+include README.py
+inlude banco_de_dados/
+include .gitattributes
+include .gitignore
+recursive-include docs *.txt *.md
+recursive-include examples *.py
+recursive-include data *.dat
+exclude secret_config.cfg
+global-exclude *.pyc
