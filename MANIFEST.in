@@ -1,0 +1,24 @@
+include .gitattributes
+include .gitignore
+include .pylintrc
+include LICENSE
+include MANIFEST.in
+include README.ipynb
+include README.md
+include README.py
+inlude banco_de_dados/
+incluse convert_ipynb_to_md_and_py.ipynb
+include create_and_activate_an_enviroment.ipynb
+include filter_nb_metadata.py
+include funcoes/
+include main_rbf.ipynb
+include pdfs/
+include pickles/
+
+include resultados_computacionais/
+include saidas/
+recursive-include docs *.txt *.md
+recursive-include examples *.py
+recursive-include data *.dat
+exclude secret_config.cfg
+global-exclude *.pyc
