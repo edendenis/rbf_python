@@ -1,4 +1,5 @@
 # Radial Basis Function Neural Networks (RBFNN)
+[![DOI](https://zenodo.org/badge/758237447.svg)](https://zenodo.org/doi/10.5281/zenodo.10668855)
 
 ## Resumo
 
