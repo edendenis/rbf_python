@@ -1,17 +1,13 @@
 <!-- ESCUDOS DO PROJETO -->
-<!--
-*** Estou usando links de "estilo de referência" de marcação para facilitar a leitura.
-*** Os links de referência estão entre colchetes [ ] em vez de parênteses ( ).
-*** Veja no final deste documento a declaração das variáveis de referência
-*** para URL de contribuidores, url de forks etc. Esta é uma sintaxe opcional e concisa que você pode usar.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![Licença MIT][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+<p align="center">
+  <img src="https://img.shields.io/github/contributors/edendenis/rbf_python.svg?style=flat-square" alt="Contribuidores">
+  <img src="https://img.shields.io/github/forks/edendenis/rbf_python.svg?style=flat-square" alt="Forks">
+  <img src="https://img.shields.io/github/stars/edendenis/rbf_python.svg?style=flat-square" alt="Estrelas">
+  <img src="https://img.shields.io/github/issues/edendenis/rbf_python.svg?style=flat-square" alt="Issues">
+  <img src="https://img.shields.io/github/license/edendenis/rbf_python.svg?style=flat-square" alt="Licença MIT">
+  <a href="https://www.linkedin.com/in/seu_linkedin"><img src="https://img.shields.io/badge/-LinkedIn-blue.svg?style=flat-square&logo=linkedin&colorB=555" alt="LinkedIn"></a>
+</p>
+
 
 <!-- LOGOTIPO DO PROJETO -->
 <div style="display: flex; justify-content: center;">
