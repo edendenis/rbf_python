@@ -19,7 +19,7 @@
 #    </a>
 # </div>
 # 
-# <h3 align="center">Radial Basis Function Neural Networks (RBFNN)</h3>
+# <h3 align="center">EDF Radial Basis Function (RBF) Python</h3>
 # 
 # <div style="display: flex; justify-content: center;">
 #   <a href="https://zenodo.org/doi/10.5281/zenodo.10668855">
@@ -108,9 +108,7 @@
 # 
 # 1. Abra um terminal no seu sistema Ubuntu. Você pode fazer isso pressionando "Ctrl + Alt + T" ou procurando por "Terminal" no menu de aplicativos.
 # 
-# 2. No terminal, digite o seguinte comando para gerar um novo par de chaves SSH:
-# 
-#     `ssh-keygen -t rsa`
+# 2. No terminal, digite o seguinte comando para gerar um novo par de chaves SSH: `ssh-keygen -t rsa`
 # 
 # 1. O comando acima irá gerar um par de chaves RSA. Você também pode usar outros algoritmos de chave, como `dsa` ou `ecdsa`, se preferir. Pressione Enter para aceitar o local padrão do arquivo da chave.
 # 
@@ -206,37 +204,21 @@
 # 
 # #### 2.4.1 `Linux`
 # 
-# - Recomendamos instalar o pacote `proplib` no modo desenvolvedor/administrador!
+# 1. **Clone o repositório:**
 # 
-# - Clone o repositório:
-#   
-#   - pelo terminal: `git clone -b develop https://gitlab.com/iae-apr/proplib.git`
-#   
-#   - ou faça o download do repositório `.zip` pela página web do gitlab, botão ao lado do botão azul "clone" à direita
+#   - **Pelo terminal:** `git clone git@github.com:edendenis/rbf_python.git`
 # 
-# - Abra um terminal na raiz do repositório (pasta `proplib`, com subpastas "docs", "tests", etc);
-# 
-# - execute o comando a seguir no terminal:  `sudo pip install -e .` (o ponto faz parte do comando!)
-#   
-#   - Caso o comando acima **NÃO** funcione, isto pode significar que você **NÃO** tem previlégios para instalar o pacote na pasta raíz (root) do Sistema Operacional (SO). Sendo assim, execute o comando a seguir no terminal: `pip install -e .` (**SEM** o `sudo`), desta maneira você conseguirá instalar o `setup.py` no diretório de usuário.
+#   - **(Ou) Fazer o _download_ do repositório `.zip` pela página web do GitHub, botão ao lado do botão azul `clone` à direita
 # 
 #   <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 # #### 2.4.2 `Windows`
 # 
-# - Recomendamos instalar o pacote `proplib` no modo desenvolvedor/administrador!
+# 1. **Clone o repositório:**
 # 
-# - Clone o repositório:
-#   
-#   - pelo terminal: `git clone https://gitlab.com/iae-apr/proplib.git`
-#   
-#   - ou faça o download do repositório `.zip` pela página web do gitlab, botão ao lado do botão azul "clone" à direita
+#   - **Pelo terminal:** `git clone git@github.com:edendenis/rbf_python.git`
 # 
-# - Abra um terminal na raiz do repositório (pasta `proplib`, com subpastas "docs", "tests", etc);
-# 
-# - execute o comando a seguir no terminal:  `sudo pip install -e .` (o ponto faz parte do comando!)
-#   
-#   - Caso o comando acima **NÃO** funcione, isto pode significar que você **NÃO** tem previlégios para instalar o pacote na pasta raíz (root) do Sistema Operacional (SO). Sendo assim, execute o comando a seguir no terminal: `pip install -e .` (**SEM** o `sudo`), desta maneira você conseguirá instalar o `setup.py` no diretório de usuário.
+#   - **(Ou) Fazer o _download_ do repositório `.zip` pela página web do GitHub, botão ao lado do botão azul `clone` à direita
 # 
 #   <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
@@ -291,9 +273,9 @@
 # <!-- CONTATO -->
 # ## Contato
 # 
-# Seu nome - [LinkedIn](https://linkedin.com/in/eden-santos-51a826149/) - edendenis@gmail.com
+# Eden Denis F. da S. L. Santos - [LinkedIn](https://linkedin.com/in/eden-santos-51a826149/) - edendenis@gmail.com
 # 
-# Link do projeto: [https://github.com/edendenis/rfbnn](https://github.com/edendenis/rbfnn)
+# Link do projeto: [https://github.com/edendenis/rfbnn](https://github.com/edendenis/rbf_python)
 # 
 # <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 # 
@@ -338,5 +320,7 @@
 # 
 # [11] SANTOS, E. D. F. da S. L.. ***Projeto dirigido: funções de base radial.*** Universidade Federal do ABC (UFABC), Santo André, 2014.
 # 
-# [12] USER: OTHENEILDREW. **Best readme template**. Disponível em: <https://github.com/othneildrew/Best-README-Template>. Acessado em: 21/02/2024 11:01
+# [12] USER: OTHENEILDREW. ***Best readme template***. Disponível em: <https://github.com/othneildrew/Best-README-Template>. Acessado em: 21/02/2024 11:01
+# 
+# <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 # 
