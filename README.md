@@ -305,7 +305,7 @@ Link do projeto: [https://github.com/edendenis/rfbnn](https://github.com/edenden
 
 [5] BARONE, D. A. C.. ***Sociedades artificiais: a nova fronteira da inteligência nas máquinas***. Porto Alegre: Bookman, 2003.
 
-[6] RICIERI, A. P.. ***Radial basis function (rbf)***. EDF Tecnologia, São Paulo, 2013.
+[6] RICIERI, A. P.. ***Radial basis function (rbf)***. Prandiano, São Paulo, 2013.
 
 [7] SANTOS, E. D. F. da S. L.. ***Curso de python: radial basis function (rbf)***. EDF Tecnologia, São Paulo, 2013.
 
