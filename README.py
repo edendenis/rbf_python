@@ -81,7 +81,7 @@
 # * Python 3.8
 # * Anaconda 24.1.0
 # * Git
-# * IDE para executar o arquivo `.ipynb`
+# * IDE para executar o arquivo `.ipynb` (PyCharm, Spyder, VS Code etc.)
 # 
 # <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 # 
@@ -228,7 +228,7 @@
 # 
 # Use este espaço para mostrar exemplos úteis de como um projeto pode ser usado. Capturas de tela adicionais, exemplos de código e demonstrações funcionam bem neste espaço. Você também pode vincular a mais recursos.
 # 
-# _Para mais exemplos, consulte a [Documentação](https://example.com)_
+# _Para mais exemplos, consulte a [Documentação](https://www.github.com/edendenis/rbf_python)_
 # 
 # 1. Abrir o arquivo `main_<nome_da_aplicacao>.ipynb` o qual está com comentários, alterar o banco de dados (existem exemplos de bancos de dados) na pasta que deverá ser utilizado para a execução e executar todas as células. 
 #     
@@ -308,9 +308,9 @@
 # 
 # [5] BARONE, D. A. C.. ***Sociedades artificiais: a nova fronteira da inteligência nas máquinas***. Porto Alegre: Bookman, 2003.
 # 
-# [6] RICIERI, A. P.; SANTOS, E. D. F. da S. L.. ***Radial basis function***. Prandiano e EDF Tecnologia, São Paulo, 2013.
+# [6] RICIERI, A. P.. ***Radial basis function (rbf)***. EDF Tecnologia, São Paulo, 2013.
 # 
-# [7] SANTOS, E. D. F. da S. L.. ***Curso de python: radial basis function***. Prandiano e EDF Tecnologia, São Paulo, 2013.
+# [7] SANTOS, E. D. F. da S. L.. ***Curso de python: radial basis function (rbf)***. EDF Tecnologia, São Paulo, 2013.
 # 
 # [8] Universidade de São Paulo, Insituto de Ciências Matemáticas e de Computação. ***Redes neurais artificiais:*** Disponível em: <http://www.icmc.usp.br/pessoas/andre/research/neural/>.  Acessado em: 02/05/2014.
 # 
