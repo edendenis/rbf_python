@@ -64,8 +64,8 @@
 # 
 # Esta seção deve listar todas as principais estruturas/bibliotecas usadas para inicializar seu projeto. Deixe quaisquer complementos/plugins para a seção de agradecimentos. Aqui estão alguns exemplos.
 # 
-# * [![Python][Python]][https://www.python.org/]
-# * [![Anaconda][Python]][https://www.anaconda.com/]
+# * [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+# * [![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=flat-square&logo=anaconda&logoColor=white)](https://www.anaconda.com/)
 # 
 # <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
@@ -106,7 +106,7 @@
 # 
 # Para gerar uma chave SSH no Linux Ubuntu, você pode seguir os passos abaixo:
 # 
-# 1. Abra um terminal no seu sistema Ubuntu. Você pode fazer isso pressionando "Ctrl + Alt + T" ou procurando por "Terminal" no menu de aplicativos.
+# 1. Abra um terminal no seu sistema Ubuntu. Você pode fazer isso pressionando `Ctrl + Alt + T` ou procurando por "Terminal" no menu de aplicativos.
 # 
 # 2. No terminal, digite o seguinte comando para gerar um novo par de chaves SSH: `ssh-keygen -t rsa`
 # 
@@ -127,18 +127,6 @@
 # Lembre-se de proteger sua chave privada e evitar compartilhá-la com outras pessoas. É recomendável usar autenticação por chave SSH em vez de senhas, pois oferece uma camada adicional de segurança.
 # 
 # <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
-
-# ### 2.3 Atualizar pacotes `pip` e `setuptools` [3]
-# 
-# É recomendado que sejam atualizado os pacotes, como segue:
-# 
-# 1. **Verificar a versão do `pip`:** Verifique se você está usando uma versão atualizada do `pip`. Execute o seguinte comando para atualizá-lo, caso necessário: `pip install --upgrade pip`
-# 
-# 2. **Verificar a versão do `setuptools`:** Verifique se você possui a versão mais recente do pacote `setuptools` instalada. Execute o seguinte comando para atualizá-lo, se necessário:`pip install --upgrade setuptools`
-# 
-# 3. **Verificar a versão do `wheel`:** O erro menciona que a opção `bdist_wheel` é inválida. Isso pode acontecer se o pacote `wheel` estiver desatualizado. Execute o seguinte comando para atualizar o pacote `wheel` com o comando: `pip install --upgrade wheel`
-# 
-# 4. É recomendado reiniciar o Sistema Operacional (SO).
 
 # #### 2.2.3 `Windows` [2]
 # 
@@ -171,20 +159,6 @@
 # Depois de copiar a chave pública, você poderá fazer login no servidor remoto sem precisar digitar a senha toda vez, desde que a chave privada esteja presente no sistema local e a frase secreta (se fornecida) esteja correta.
 # 
 # Lembre-se de proteger sua chave privada e evitar compartilhá-la com outras pessoas. É recomendável usar autenticação por chave SSH em vez de senhas, pois oferece uma camada adicional de segurança.
-# 
-# <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
-
-# ### 2.3 Atualizar pacotes `pip` e `setuptools` [3]
-# 
-# É recomendado que sejam atualizado os pacotes, como segue:
-# 
-# 1. **Verificar a versão do `pip`:** Verifique se você está usando uma versão atualizada do `pip`. Execute o seguinte comando para atualizá-lo, caso necessário: `pip install --upgrade pip`
-# 
-# 2. **Verificar a versão do `setuptools`:** Verifique se você possui a versão mais recente do pacote `setuptools` instalada. Execute o seguinte comando para atualizá-lo, se necessário:`pip install --upgrade setuptools`
-# 
-# 3. **Verificar a versão do `wheel`:** O erro menciona que a opção `bdist_wheel` é inválida. Isso pode acontecer se o pacote `wheel` estiver desatualizado. Execute o seguinte comando para atualizar o pacote `wheel` com o comando: `pip install --upgrade wheel`
-# 
-# 4. É recomendado reiniciar o Sistema Operacional (SO).
 # 
 # <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
