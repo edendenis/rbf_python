@@ -244,7 +244,7 @@ Não se esqueça de dar uma estrela ao projeto! Obrigado novamente!
 <!-- CONTATO -->
 ## Contato
 
-Eden Denis F. da S. L. Santos - [LinkedIn](https://linkedin.com/in/eden-santos-51a826149/) - edendenis@gmail.com
+Contato EDF Technology - [LinkedIn](https://linkedin.com/in/eden-santos-51a826149/) - contato@edftechnology.com
 
 Link do projeto: [https://github.com/edendenis/rfbnn](https://github.com/edendenis/rbf_python)
 

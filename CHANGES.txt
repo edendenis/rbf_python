@@ -1,0 +1,11 @@
+
+Histórico de Revisões/Versões
+==============================
+
+Incluir a(s) revisão(ões/versão(ões) em ordem da mais atual para a mais antiga,
+pois trata-se de uma prática para não poluir o arquivo `README.md` e, ao mesmo tempo,
+facilitar quando incluir uma nova revisão/versão.
+
+**Revisão 0** - 01/09/2022
+- Revisão inicial/criação do documento.
+  - Autor: Leonardo Lavra Rodrigues
