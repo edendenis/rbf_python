@@ -28,7 +28,7 @@
 # </div>
 # 
 # <p align="center">
-#  Um modelo README incrível para impulsionar seus projetos!
+#  Aplicação computacional de Redes Neurais de Função de Base Radial (RNFBR) as quais empregam funções de base radial em camadas ocultas, modelando com eficiência relacionamentos não lineares complexos em dados. Sua arquitetura exclusiva permite aproximação, classificação e regressão precisas de funções, tornando-os versáteis e eficazes em vários domínios.
 #  <br />
 #  <a href="https://github.com/edendenis/rfbnn"><strong>Explore os documentos »</strong></a>
 #  <br />
@@ -43,7 +43,7 @@
 
 # ## Resumo
 # 
-# Aplicação computacional de Redes Neurais de Função de Base Radial (RBFNN) eu empregam funções de base radial em camadas ocultas, modelando com eficiência relacionamentos não lineares complexos em dados. Sua arquitetura exclusiva permite aproximação, classificação e regressão precisas de funções, tornando-os versáteis e eficazes em vários domínios.
+# Aplicação computacional de Redes Neurais de Função de Base Radial (RNFBR) as quais empregam funções de base radial em camadas ocultas, modelando com eficiência relacionamentos não lineares complexos em dados. Sua arquitetura exclusiva permite aproximação, classificação e regressão precisas de funções, tornando-os versáteis e eficazes em vários domínios.
 # 
 # ## _Abstract_
 # 
@@ -298,3 +298,15 @@
 # 
 # <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 # 
+
+# In[2]:
+
+
+get_ipython().run_line_magic('run', 'convert_ipynb_to_md_and_py.ipynb')
+
+
+# In[ ]:
+
+
+
+

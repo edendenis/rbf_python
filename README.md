@@ -25,7 +25,7 @@
 </div>
 
 <p align="center">
- Um modelo README incrível para impulsionar seus projetos!
+ Aplicação computacional de Redes Neurais de Função de Base Radial (RNFBR) as quais empregam funções de base radial em camadas ocultas, modelando com eficiência relacionamentos não lineares complexos em dados. Sua arquitetura exclusiva permite aproximação, classificação e regressão precisas de funções, tornando-os versáteis e eficazes em vários domínios.
  <br />
  <a href="https://github.com/edendenis/rfbnn"><strong>Explore os documentos »</strong></a>
  <br />
@@ -40,7 +40,7 @@
 
 ## Resumo
 
-Aplicação computacional de Redes Neurais de Função de Base Radial (RBFNN) eu empregam funções de base radial em camadas ocultas, modelando com eficiência relacionamentos não lineares complexos em dados. Sua arquitetura exclusiva permite aproximação, classificação e regressão precisas de funções, tornando-os versáteis e eficazes em vários domínios.
+Aplicação computacional de Redes Neurais de Função de Base Radial (RNFBR) as quais empregam funções de base radial em camadas ocultas, modelando com eficiência relacionamentos não lineares complexos em dados. Sua arquitetura exclusiva permite aproximação, classificação e regressão precisas de funções, tornando-os versáteis e eficazes em vários domínios.
 
 ## _Abstract_
 
@@ -295,3 +295,59 @@ Link do projeto: [https://github.com/edendenis/rfbnn](https://github.com/edenden
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
+
+
+```python
+%run convert_ipynb_to_md_and_py.ipynb
+```
+
+
+    ---------------------------------------------------------------------------
+
+    ModuleNotFoundError                       Traceback (most recent call last)
+
+    Cell In[2], line 1
+    ----> 1 get_ipython().run_line_magic('run', 'convert_ipynb_to_md_and_py.ipynb')
+
+
+    File ~/.local/lib/python3.8/site-packages/IPython/core/interactiveshell.py:2417, in InteractiveShell.run_line_magic(self, magic_name, line, _stack_depth)
+       2415     kwargs['local_ns'] = self.get_local_scope(stack_depth)
+       2416 with self.builtin_trap:
+    -> 2417     result = fn(*args, **kwargs)
+       2419 # The code below prevents the output from being displayed
+       2420 # when using magics with decodator @output_can_be_silenced
+       2421 # when the last Python token in the expression is a ';'.
+       2422 if getattr(fn, magic.MAGIC_OUTPUT_CAN_BE_SILENCED, False):
+
+
+    File ~/.local/lib/python3.8/site-packages/IPython/core/magics/execution.py:722, in ExecutionMagics.run(self, parameter_s, runner, file_finder)
+        720     with preserve_keys(self.shell.user_ns, '__file__'):
+        721         self.shell.user_ns['__file__'] = filename
+    --> 722         self.shell.safe_execfile_ipy(filename, raise_exceptions=True)
+        723     return
+        725 # Control the response to exit() calls made by the script being run
+
+
+    File ~/.local/lib/python3.8/site-packages/IPython/core/interactiveshell.py:2936, in InteractiveShell.safe_execfile_ipy(self, fname, shell_futures, raise_exceptions)
+       2934 with prepended_to_syspath(dname):
+       2935     try:
+    -> 2936         for cell in get_cells():
+       2937             result = self.run_cell(cell, silent=True, shell_futures=shell_futures)
+       2938             if raise_exceptions:
+
+
+    File ~/.local/lib/python3.8/site-packages/IPython/core/interactiveshell.py:2924, in InteractiveShell.safe_execfile_ipy.<locals>.get_cells()
+       2922 """generator for sequence of code blocks to run"""
+       2923 if fname.suffix == ".ipynb":
+    -> 2924     from nbformat import read
+       2925     nb = read(fname, as_version=4)
+       2926     if not nb.cells:
+
+
+    ModuleNotFoundError: No module named 'nbformat'
+
+
+
+```python
+
+```
