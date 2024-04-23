@@ -1,4 +1,3 @@
-
 Histórico de Revisões/Versões
 ==============================
 
@@ -8,4 +7,13 @@ facilitar quando incluir uma nova revisão/versão.
 
 **Revisão 0** - 01/09/2022
 - Revisão inicial/criação do documento.
-  - Autor: Leonardo Lavra Rodrigues
+  - Autor: Eden Denis F. da S. L. Santos
+
+## Revisão(ões)/Versão(ões)
+
+| Revisão número | Data da revisão | Descrição da revisão                                    | Autor da revisão                                |
+|:--------------:|:---------------:|:--------------------------------------------------------|:------------------------------------------------|
+| 0              | 15/09/2022      | <ul><li>Revisão inicial/criação do documento.</li></ul> | <ul><li>Eden Denis F. da S. L. Santos</li></ul> |
+
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
+

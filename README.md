@@ -12,7 +12,7 @@
 <!-- LOGOTIPO DO PROJETO -->
 <div style="display: flex; justify-content: center;">
    <a href="https://github.com/othneildrew/Best-README-Template">
-     <img src="figures/logotipo_edf_vetorizado_fundo_roxo_e_nome.png" alt="Logo" width="80" height="80">
+     <img src="figures/gold_edf_technology_logo_transparent_background_and_gold_name.png" alt="Logo" width="160" height="160">
    </a>
 </div>
 
@@ -48,15 +48,6 @@ _Computational Application of Radial Basis Function Neural Networks (RBFNN) I em
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
-## Revisão(ões)/Versão(ões)
-
-| Revisão número | Data da revisão | Descrição da revisão                                    | Autor da revisão                                |
-|:--------------:|:---------------:|:--------------------------------------------------------|:------------------------------------------------|
-| 0              | 15/09/2022      | <ul><li>Revisão inicial/criação do documento.</li></ul> | <ul><li>Eden Denis F. da S. L. Santos</li></ul> |
-
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
-
-
 ### Construído com
 
 Esta seção deve listar todas as principais estruturas/bibliotecas usadas para inicializar seu projeto. Deixe quaisquer complementos/plugins para a seção de agradecimentos. Aqui estão alguns exemplos.
@@ -67,12 +58,12 @@ Esta seção deve listar todas as principais estruturas/bibliotecas usadas para 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- COMEÇANDO -->
-## 1.1 Começando
+### Começando
 
 Este é um exemplo de como você pode dar instruções sobre como configurar seu projeto localmente.
 Para obter uma cópia local instalada e funcionando, siga estas etapas simples de exemplo.
 
-### 1.2 Pré-requisitos
+### Pré-requisitos
 
 Este é um exemplo de como listar os itens necessários para usar o software e como instalá-los.
 * Python 3.8
@@ -83,9 +74,9 @@ Este é um exemplo de como listar os itens necessários para usar o software e c
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 
-## 2. Guia de instalação
+## Guia de instalação
 
-### 2.1 Instalar o Git
+### Instalar o Git
 
 Verifique se você tem o Git instalado no seu computador. Se não tiver, você pode baixá-lo e instalá-lo a partir do site oficial do Git: https://git-scm.com/downloads
 
@@ -93,13 +84,13 @@ Abra o Git Bash. Você pode fazer isso clicando com o botão direito do mouse em
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
-### 2.2 Criar chave SSH para a conta do usuário [1]
+### Criar chave SSH para a conta do usuário [1]
 
-#### 2.2.1 Verificar se foi liberado o acesso ao Git
+#### Verificar se foi liberado o acesso ao Git
 
 Antes de seguir os passos de uma das Seções abaixo (Linux e/ou Windows), confirmar com um dos administradores do Git se foi liberado o acesso para a sua conta de e-mail. Se não, solicitar o acesso antes de prosseguir com o passo a passo de uma Seções abaix (Linux e/ou Windows). 
 
-#### 2.2.2 `Linux`
+#### `Linux`
 
 Para gerar uma chave SSH no Linux Ubuntu, você pode seguir os passos abaixo:
 
@@ -125,7 +116,7 @@ Lembre-se de proteger sua chave privada e evitar compartilhá-la com outras pess
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
-#### 2.2.3 `Windows` [2]
+#### `Windows` [2]
 
 Para gerar uma chave SSH no Windows para uso no GitLab, você pode seguir as etapas abaixo:
 
@@ -159,7 +150,7 @@ Lembre-se de proteger sua chave privada e evitar compartilhá-la com outras pess
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
-### 2.3 Atualizar pacotes `pip` e `setuptools` [3]
+### Atualizar pacotes `pip` e `setuptools` [3]
 
 É recomendado que sejam atualizado os pacotes, como segue:
 
@@ -171,9 +162,9 @@ Lembre-se de proteger sua chave privada e evitar compartilhá-la com outras pess
 
 4. É recomendado reiniciar o Sistema Operacional (SO).
 
-### 2.4 Clonar o repositório do Git e instalar o pacote `proplib`
+### Clonar o repositório do Git e instalar o pacote `proplib`
 
-#### 2.4.1 `Linux`
+#### `Linux`
 
 1. **Clone o repositório:**
 
@@ -183,18 +174,18 @@ Lembre-se de proteger sua chave privada e evitar compartilhá-la com outras pess
 
   <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
-#### 2.4.2 `Windows`
+#### `Windows`
 
 1. **Clone o repositório:**
 
   - **Pelo terminal:** `git clone git@github.com:edendenis/rbf_python.git`
 
-  - **(Ou) Fazer o _download_ do repositório `.zip` pela página web do GitHub, botão ao lado do botão azul `clone` à direita
+  - **(Ou)** Fazer o _download_ do repositório `.zip` pela página web do GitHub, botão ao lado do botão azul `clone` à direita
 
   <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- COMO EXECUTAR A APLICAÇÂO -->
-## 3. Como executar a aplicação
+## Como executar a aplicação
 
 
 Use este espaço para mostrar exemplos úteis de como um projeto pode ser usado. Capturas de tela adicionais, exemplos de código e demonstrações funcionam bem neste espaço. Você também pode vincular a mais recursos.
@@ -301,53 +292,5 @@ Link do projeto: [https://github.com/edendenis/rfbnn](https://github.com/edenden
 %run convert_ipynb_to_md_and_py.ipynb
 ```
 
+    ./README.ipynb was successfully converted to ./README.md and ./README.py
 
-    ---------------------------------------------------------------------------
-
-    ModuleNotFoundError                       Traceback (most recent call last)
-
-    Cell In[2], line 1
-    ----> 1 get_ipython().run_line_magic('run', 'convert_ipynb_to_md_and_py.ipynb')
-
-
-    File ~/.local/lib/python3.8/site-packages/IPython/core/interactiveshell.py:2417, in InteractiveShell.run_line_magic(self, magic_name, line, _stack_depth)
-       2415     kwargs['local_ns'] = self.get_local_scope(stack_depth)
-       2416 with self.builtin_trap:
-    -> 2417     result = fn(*args, **kwargs)
-       2419 # The code below prevents the output from being displayed
-       2420 # when using magics with decodator @output_can_be_silenced
-       2421 # when the last Python token in the expression is a ';'.
-       2422 if getattr(fn, magic.MAGIC_OUTPUT_CAN_BE_SILENCED, False):
-
-
-    File ~/.local/lib/python3.8/site-packages/IPython/core/magics/execution.py:722, in ExecutionMagics.run(self, parameter_s, runner, file_finder)
-        720     with preserve_keys(self.shell.user_ns, '__file__'):
-        721         self.shell.user_ns['__file__'] = filename
-    --> 722         self.shell.safe_execfile_ipy(filename, raise_exceptions=True)
-        723     return
-        725 # Control the response to exit() calls made by the script being run
-
-
-    File ~/.local/lib/python3.8/site-packages/IPython/core/interactiveshell.py:2936, in InteractiveShell.safe_execfile_ipy(self, fname, shell_futures, raise_exceptions)
-       2934 with prepended_to_syspath(dname):
-       2935     try:
-    -> 2936         for cell in get_cells():
-       2937             result = self.run_cell(cell, silent=True, shell_futures=shell_futures)
-       2938             if raise_exceptions:
-
-
-    File ~/.local/lib/python3.8/site-packages/IPython/core/interactiveshell.py:2924, in InteractiveShell.safe_execfile_ipy.<locals>.get_cells()
-       2922 """generator for sequence of code blocks to run"""
-       2923 if fname.suffix == ".ipynb":
-    -> 2924     from nbformat import read
-       2925     nb = read(fname, as_version=4)
-       2926     if not nb.cells:
-
-
-    ModuleNotFoundError: No module named 'nbformat'
-
-
-
-```python
-
-```

@@ -15,7 +15,7 @@
 # <!-- LOGOTIPO DO PROJETO -->
 # <div style="display: flex; justify-content: center;">
 #    <a href="https://github.com/othneildrew/Best-README-Template">
-#      <img src="figures/logotipo_edf_vetorizado_fundo_roxo_e_nome.png" alt="Logo" width="80" height="80">
+#      <img src="figures/gold_edf_technology_logo_transparent_background_and_gold_name.png" alt="Logo" width="160" height="160">
 #    </a>
 # </div>
 # 
@@ -51,15 +51,6 @@
 # 
 # <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
-# ## Revisão(ões)/Versão(ões)
-# 
-# | Revisão número | Data da revisão | Descrição da revisão                                    | Autor da revisão                                |
-# |:--------------:|:---------------:|:--------------------------------------------------------|:------------------------------------------------|
-# | 0              | 15/09/2022      | <ul><li>Revisão inicial/criação do documento.</li></ul> | <ul><li>Eden Denis F. da S. L. Santos</li></ul> |
-# 
-# <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
-# 
-
 # ### Construído com
 # 
 # Esta seção deve listar todas as principais estruturas/bibliotecas usadas para inicializar seu projeto. Deixe quaisquer complementos/plugins para a seção de agradecimentos. Aqui estão alguns exemplos.
@@ -70,12 +61,12 @@
 # <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 # <!-- COMEÇANDO -->
-# ## 1.1 Começando
+# ### Começando
 # 
 # Este é um exemplo de como você pode dar instruções sobre como configurar seu projeto localmente.
 # Para obter uma cópia local instalada e funcionando, siga estas etapas simples de exemplo.
 # 
-# ### 1.2 Pré-requisitos
+# ### Pré-requisitos
 # 
 # Este é um exemplo de como listar os itens necessários para usar o software e como instalá-los.
 # * Python 3.8
@@ -86,9 +77,9 @@
 # <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 # 
 
-# ## 2. Guia de instalação
+# ## Guia de instalação
 # 
-# ### 2.1 Instalar o Git
+# ### Instalar o Git
 # 
 # Verifique se você tem o Git instalado no seu computador. Se não tiver, você pode baixá-lo e instalá-lo a partir do site oficial do Git: https://git-scm.com/downloads
 # 
@@ -96,13 +87,13 @@
 # 
 # <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
-# ### 2.2 Criar chave SSH para a conta do usuário [1]
+# ### Criar chave SSH para a conta do usuário [1]
 # 
-# #### 2.2.1 Verificar se foi liberado o acesso ao Git
+# #### Verificar se foi liberado o acesso ao Git
 # 
 # Antes de seguir os passos de uma das Seções abaixo (Linux e/ou Windows), confirmar com um dos administradores do Git se foi liberado o acesso para a sua conta de e-mail. Se não, solicitar o acesso antes de prosseguir com o passo a passo de uma Seções abaix (Linux e/ou Windows). 
 # 
-# #### 2.2.2 `Linux`
+# #### `Linux`
 # 
 # Para gerar uma chave SSH no Linux Ubuntu, você pode seguir os passos abaixo:
 # 
@@ -128,7 +119,7 @@
 # 
 # <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
-# #### 2.2.3 `Windows` [2]
+# #### `Windows` [2]
 # 
 # Para gerar uma chave SSH no Windows para uso no GitLab, você pode seguir as etapas abaixo:
 # 
@@ -162,7 +153,7 @@
 # 
 # <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
-# ### 2.3 Atualizar pacotes `pip` e `setuptools` [3]
+# ### Atualizar pacotes `pip` e `setuptools` [3]
 # 
 # É recomendado que sejam atualizado os pacotes, como segue:
 # 
@@ -174,9 +165,9 @@
 # 
 # 4. É recomendado reiniciar o Sistema Operacional (SO).
 
-# ### 2.4 Clonar o repositório do Git e instalar o pacote `proplib`
+# ### Clonar o repositório do Git e instalar o pacote `proplib`
 # 
-# #### 2.4.1 `Linux`
+# #### `Linux`
 # 
 # 1. **Clone o repositório:**
 # 
@@ -186,18 +177,18 @@
 # 
 #   <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
-# #### 2.4.2 `Windows`
+# #### `Windows`
 # 
 # 1. **Clone o repositório:**
 # 
 #   - **Pelo terminal:** `git clone git@github.com:edendenis/rbf_python.git`
 # 
-#   - **(Ou) Fazer o _download_ do repositório `.zip` pela página web do GitHub, botão ao lado do botão azul `clone` à direita
+#   - **(Ou)** Fazer o _download_ do repositório `.zip` pela página web do GitHub, botão ao lado do botão azul `clone` à direita
 # 
 #   <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 # <!-- COMO EXECUTAR A APLICAÇÂO -->
-# ## 3. Como executar a aplicação
+# ## Como executar a aplicação
 # 
 # 
 # Use este espaço para mostrar exemplos úteis de como um projeto pode ser usado. Capturas de tela adicionais, exemplos de código e demonstrações funcionam bem neste espaço. Você também pode vincular a mais recursos.
@@ -299,14 +290,8 @@
 # <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 # 
 
-# In[2]:
+# In[1]:
 
 
 get_ipython().run_line_magic('run', 'convert_ipynb_to_md_and_py.ipynb')
-
-
-# In[ ]:
-
-
-
 
